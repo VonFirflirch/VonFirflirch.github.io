@@ -7,9 +7,19 @@ head{text-align: center;
 
 #warning{color:white;}
 
+#MaroThisPear:hover{
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s 2s, opacity 2s linear;
+}
+
+#sneakysneaky{z-index: 0;}
+
 header{font-family: verdana monospace;}
 
 h1 {color:#00F;}
+
+body {margin: 0;}
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
@@ -38,6 +48,11 @@ h1 {color:#00F;}
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+#Shmilblick{
+  max-width:100%;
+  height: auto;
 }
 
 #dog{
